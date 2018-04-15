@@ -1,0 +1,89 @@
+body{
+	height: 100wv;
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient( #333, #eee 10%, #333 100%, #eee 10%);
+}
+
+.navbar-default{
+    background-color: rgba(48, 56, 89, 0.8);
+    border: 3px solid black;
+}
+
+.form-group{
+	color: white;
+	width: 75%;
+	padding-left: 35%;
+}
+
+.form-group img{
+	width: 25%;
+	height: 25%;
+}
+
+.col-sm-10{
+	width: 83.3%;
+    min-width: 380px;
+}
+
+/* HEALTH HACKS HEADER */
+/*********************************************************************************************/
+.navbar-default .container .navbar-header{
+	color: pink;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Black Han Sans', sans-serif;
+	padding-top: 1%;
+}
+/*********************************************************************************************/
+
+/* INPUTS FOR THE USERS */
+/*********************************************************************************************/
+.container .form-horizontal .form-group .col-sm-10 input{
+	width: 70%;
+	color: black;
+	border: 2px solid black;
+	background-color: rgb(210, 215, 221);
+}
+/*********************************************************************************************/
+
+/* PASSWORD RESET */
+/*********************************************************************************************/
+.forgetPassword{
+	color: black;
+	font-size: 15px;
+}
+
+.forgetPassword:hover{
+	color: white;
+	text-decoration: underline;
+}
+/*********************************************************************************************/
+
+.checkbox label{
+	color: white;
+	font-size: 15px;
+}
+
+/* SUBMIT BUTTON */
+/*********************************************************************************************/
+.btn-danger{
+	color: black;
+	background-color: rgb(111, 113, 116);
+	border: 2px solid black;
+}
+
+.btn-danger:hover{
+	color: white;
+	background-color: transparent;
+	border: 2px solid rgb(222, 226, 232);
+}
+/*********************************************************************************************/
+
+
+
+
+
+
+
+

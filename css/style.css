@@ -1,0 +1,99 @@
+*{
+	margin: 0  auto;
+}
+
+.wrapper{
+	width: 100%;
+	height: 1200px;
+	background-color: rgba(0,0,1,1);
+}
+#search
+{
+	width:40%;
+	height:50%;
+	border-radius: 15px;
+	background-color: white;
+	border-color:  rgba(1,1,0,1);
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 30%;
+}
+
+#top_bar
+{
+	width:100%;
+	height: 70px;
+	background-color: rgba(51, 102, 153,0.7);
+    color: white;
+}
+
+#db_content{
+	margin-top: 5px;
+	width: 98%;
+	height: 90%;
+}
+
+table{
+	width: 100%;
+	height: 90%;
+	color: white;
+}
+
+#tData tr {
+	margin: 1px;
+
+}
+#tData tr td {
+	width: 50%;
+	height: 300px;
+	border:1px solid;
+	border-color: rgba(51, 102, 153, 0.8);
+}
+
+span
+{
+   font-size: 24px;
+   color: white;
+   margin-left: 45%;
+}
+
+
+#reading_log{
+	width: 50%;
+	min-height: 400px;
+	height:100%;
+	float: left;
+	color: white;
+}
+
+
+#recent_reading{
+    width: 40%;
+    min-height: 300px;
+    height: 100%;
+    border: 1px solid white;
+    float: left;
+    color:white;
+
+}
+
+#patient_queue
+{
+	width: 40%;
+    min-height: 300px;
+    height: 100%;
+    border: 1px solid white;
+    float: right;
+
+}
+
+#form_extra_input{
+	width:300px;
+	height: 300px;
+	background-color: black;
+
+}
+
+.finish_input{
+	display: none;
+}
